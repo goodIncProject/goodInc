@@ -254,6 +254,10 @@ textarea {
     orphans: 3;
     widows: 3;
   }
+  <ul>
+
+  <li class="buttons"><input type="submit" value="ENTER"></li>
+  </ul>
 
   h2,
   h3 {
