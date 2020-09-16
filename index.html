@@ -25,26 +25,34 @@
   <p>This is the start of our project.</p>
 
 <h1> Our Team's Web Form</h1>
-<form action="https://www.github.com/goodIncProject/goodInc/goodInc.php" method="post">
-  <p>Enter Your Name Here: <input type="text" name="username"></p><br>
+  <!-- form isn't really required to do this-->
+
+  <p>Enter Your Name Here: <input type="text" id="userInput" name="username"></p>
   <table>
     <tbody>
     <tr>
-      <td><input type="submit" value="Submit"></td>
+        <!-- Use type "button" instead of "submit" -->
+      <td><input type="button" value="Submit" onclick="helloUser();"></td>
     </tr>
     </tbody>
     </table>
-</form>
-<ul>
 
- <li class="buttons"><input type="submit" value="ENTER"></li>
-  
-  </ul>
+  <p>Enter Your Name Here: <input type="text" id="nameInput" name="username"></p>
+  <table>
+      <tbody>
+      <tr>
+          <!-- Use type "button" instead of "submit" -->
+          <td><input type="button" value="Submit" onclick="helloUser();"></td>
+      </tr>
+      </tbody>
+  </table>
+
   <!-- Add your site or application content here -->
   <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="goodIncProject.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
