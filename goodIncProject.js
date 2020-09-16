@@ -7,7 +7,7 @@ alert(Hello, "username");
 function storyThree()   {
 
  var result = [];
- for (var i = 0; i !< -1; i++)
+ for (var i = 0; i !< -1; i++) result.push(i)
  console.log(result);
 
 }
