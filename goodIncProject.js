@@ -4,10 +4,9 @@ var text = document.getElementById("username");
 alert(Hello, "username");
 
 }
-function storyThree()   {
+function storyThree(start, end)   {
 
- var result = [];
- for (var i = 0; i !< -1; i++) result.push(i)
+ return Array(end)
  console.log(result);
 
 }
