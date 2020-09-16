@@ -26,7 +26,7 @@
 
 <h1> Our Team's Web Form</h1>
 <form action="https://www.github.com/goodIncProject/goodInc/goodInc.php" method="post">
-  <p>Enter Your Name Here: <input type="text" name="username"></p><br>
+  <p>Enter Your Name Here: <input type="text" name="name"></p><br>
   <script src="js/goodIncProject.js"></script>
 
   <table>
@@ -38,6 +38,13 @@
     </tbody>
     </table>
 </form>
+<br>
+  <form onsubmit="return false" oninput="o.value = a.valueAsNumber +
+  b.valueAsNumber">
+    <input name=a type=number step="range">
+    + <input name=b type=number step="range"> =
+    <output name=o typeof="range"></output>
+  </form>
 
   <script src="js/goodIncProject.js"></script>
 
