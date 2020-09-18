@@ -8,16 +8,17 @@ function helloUser() {
 }
 
 function reverseText(){
-    alertWindow(reverse());
+    var userInput = prompt("A name / phrase / sentence", "");
+    alertWindow(reverse(userInput));
 }
 
 //reverses string
-function reverse(){
-    var userInput = prompt("A name / phrase / sentence", "");
-    var arrayInput = new Array(userInput.length);
+function reverse(strInput){
+
+    var arrayInput = new Array(strInput.length);
     var strReverse = "";
     x = arrayInput.length;
-    arrayInput = userInput.split("");
+    arrayInput = strInput.split("");
     for (i=0; i < x; i++){
         strReverse += arrayInput.pop();
     }
