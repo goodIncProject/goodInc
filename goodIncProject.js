@@ -25,6 +25,31 @@ function reverse(strInput){
     return strReverse;
 }
 
+function inventoryItems(inventory_item, quantity, price){
+    this.inventoryItem = inventory_item;
+    this.quantity = quantity;
+    this.price = price;
+
+}
+function firstItem()  {
+    var a = prompt("Add Inventory Item: ", "");
+        var b= prompt("Add Quantity on-hand: ", "");
+             var c = prompt("Add Price per item: ", "");
+             document.write(a,b,c);
+
+}
+
+/*
+function firstItem()  {
+    var a = prompt("Add Inventory Item: ", "");
+    toDocument(a);
+    var a = prompt("Add Quantity on-hand: ", "");
+        toDocument(a);
+     var a = prompt("Add Price per item: ", "");
+             toDocument(a);
+
+} */
+
 function example(){
     var a = prompt("Say something: ", "");
     toDocument(a);
@@ -40,6 +65,5 @@ function toDocument(s){
 function alertWindow(s){
     alert(s);
 }
-
 
 
