@@ -25,38 +25,33 @@
   <p>This is the start of our project.</p>
 
 <h1> Our Team's Web Form</h1>
-<form action="https://www.github.com/goodIncProject/goodInc/goodInc.php" method="post">
-  <p>Enter Your Name Here: <input type="text" name="name"></p><br>
-  <script src="js/goodIncProject.js"></script>
+  <!-- form isn't really required to do this-->
 
+  <p>Enter Your Name Here: <input type="text" id="userInput" name="username"></p>
   <table>
     <tbody>
     <tr>
-      <td><input type="submit" value="Submit"></td>
-
+        <!-- Use type "button" instead of "submit" -->
+      <td><input type="button" value="Submit" onclick="helloUser();"></td>
     </tr>
     </tbody>
     </table>
-</form>
-<br>
-  <form onsubmit="return false" oninput="o.value = a.valueAsNumber +
-  b.valueAsNumber">
-    <input name=a type=number step="range">
-    + <input name=b type=number step="range"> =
-    <output name=o typeof="range"></output>
-  </form>
 
-  <script src="js/goodIncProject.js"></script>
+  <!-- REMOVE BELOW BEFORE DEPLOY -->
+  <h3>Example of Adding to HTML Document Using JS</h3>
+  <p><input type="button" value="Run" onclick="example();"/></p>
+  <!-- JS PRINTS HERE -->
+  <div id="example"></div>
+  <!-- REMOVE ABOVE BEFORE DEPLOY -->
 
-  <ul>
-    <li class="buttons"><input type="submit" value="ENTER"></li>
-  </ul>
+
 
   <!-- Add your site or application content here -->
   <p>Hello world! This is HTML5 Boilerplate.</p>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="goodIncProject.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="be307917-2c8c-4575-b2af-159508d746c8" name="Default Changelist" comment="Commit to local.">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goodInc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/goodInc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodIncProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/goodIncProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hPySdmzcYCVkyEfbBEqO350pGJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="be307917-2c8c-4575-b2af-159508d746c8" name="Default Changelist" comment="" />
+      <created>1599927022929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599927022929</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Changed the form action to local project file. and corrected &gt;&lt;/p&gt; at the end of the input statement.">
+      <created>1600185057043</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600185057043</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created this javascript file for school project.">
+      <created>1600189941449</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600189941449</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added commands to JS file.">
+      <created>1600194257938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600194257938</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added commands to JS file.">
+      <created>1600198683123</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600198683123</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added commands to JS file.">
+      <created>1600211992260</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600211992260</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added commands to JS file.">
+      <created>1600217003821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600217003821</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added commands to .css file, adding unordered list for buttons and submit and enter.">
+      <created>1600218066785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600218066785</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added commands to .css file, adding unordered list for buttons and submit and enter.">
+      <created>1600271903572</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600271903572</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added to .js file.">
+      <created>1600276916629</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600276916629</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added to .js file.">
+      <created>1600285998078</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600285998078</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added to .js file.">
+      <created>1600286110674</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600286110674</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added to .js file.">
+      <created>1600290988615</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600290988615</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changed the form action to local project file. and corrected &gt;&lt;/p&gt; at the end of the input statement." />
+    <MESSAGE value="Created this javascript file for school project." />
+    <MESSAGE value="Added commands to JS file." />
+    <MESSAGE value="Added commands to .css file, adding unordered list for buttons and submit and enter." />
+    <MESSAGE value="Added to .js file." />
+    <MESSAGE value="Commit to local." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit to local." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="508" y="210" key="#Intentions" timestamp="1600194551490">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="508" y="210" key="#Intentions/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600194551490" />
+    <state x="2291" y="-263" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600364267809">
+      <screen x="1930" y="-433" width="1600" height="860" />
+    </state>
+    <state x="433" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600286036379" />
+    <state x="2291" y="-263" key="#com.intellij.execution.impl.EditConfigurationsDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@1930.-433.1600.860" timestamp="1600364267809" />
+    <state x="691" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600183687810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600183687810" />
+    <state x="2007" y="-357" width="1736" height="856" key="DiffContextDialog" timestamp="1600363705638">
+      <screen x="1930" y="-433" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600185172370" />
+    <state x="2007" y="-357" key="DiffContextDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@1930.-433.1600.860" timestamp="1600363705638" />
+    <state x="838" y="418" key="Github.ShareDialog" timestamp="1600218140883">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="838" y="418" key="Github.ShareDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600218140883" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1600189323984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600189323984" />
+    <state x="598" y="281" key="MultipleFileMergeDialog" timestamp="1600355770517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="281" key="MultipleFileMergeDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600355770517" />
+    <state x="2390" y="-224" key="Vcs.Push.Dialog.v2" timestamp="1600363951926">
+      <screen x="1930" y="-433" width="1600" height="860" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600218156492" />
+    <state x="2390" y="-224" key="Vcs.Push.Dialog.v2/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@1930.-433.1600.860" timestamp="1600363951926" />
+    <state x="740" y="325" key="save.file.as.template.dialog" timestamp="1600113227174">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="325" key="save.file.as.template.dialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600113227174" />
+  </component>
+</project>
