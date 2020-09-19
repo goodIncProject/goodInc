@@ -31,21 +31,13 @@ function inventoryItems(inventory_item, quantity, price){
     this.price = price;
 
 }
-/*
-function firstItem()  {
-    var a = prompt("Add Inventory Item: ", "");
-        var b= prompt("Add Quantity on-hand: ", "");
-             var c = prompt("Add Price per item: ", "");
-             document.write(a,b,c);
 
-}*/
-
-
-function example(){
+//Adds a row to table class "table"
+function addItem(){
     var a = prompt("Add Inventory Item: ", "");
     var b= prompt("Add Quantity on-hand: ", "");
     var c = prompt("Add Price per item: ", "");
-    //toDocument(a);
+
     document.getElementById("table").innerHTML += "<tr><td>" + a + "</td><td>" + b + "<td>" + c + "</td></td></tr>";
 }
 

@@ -32,10 +32,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be307917-2c8c-4575-b2af-159508d746c8" name="Default Changelist" comment="Commit to local.">
+    <list default="true" id="be307917-2c8c-4575-b2af-159508d746c8" name="Default Changelist" comment="Table input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/goodIncProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/goodIncProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600435208312</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Table input">
+      <created>1600529024055</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600529024055</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +181,8 @@
     <MESSAGE value="Added commands to .css file, adding unordered list for buttons and submit and enter." />
     <MESSAGE value="Added to .js file." />
     <MESSAGE value="Commit to local." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit to local." />
+    <MESSAGE value="Table input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Table input" />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="210" key="#Intentions" timestamp="1600194551490">
@@ -210,9 +217,10 @@
     </state>
     <state x="598" y="281" key="MultipleFileMergeDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600355770517" />
     <state x="2428" y="-201" key="MultipleFileMergeDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@1930.-433.1600.860" timestamp="1600435299513" />
-    <state x="2390" y="-224" key="Vcs.Push.Dialog.v2" timestamp="1600435249913">
-      <screen x="1930" y="-433" width="1600" height="860" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600529044460">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600529044460" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600218156492" />
     <state x="2390" y="-224" key="Vcs.Push.Dialog.v2/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@1930.-433.1600.860" timestamp="1600435249913" />
     <state x="740" y="325" key="save.file.as.template.dialog" timestamp="1600113227174">
