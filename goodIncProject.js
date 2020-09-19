@@ -31,28 +31,22 @@ function inventoryItems(inventory_item, quantity, price){
     this.price = price;
 
 }
+/*
 function firstItem()  {
     var a = prompt("Add Inventory Item: ", "");
         var b= prompt("Add Quantity on-hand: ", "");
              var c = prompt("Add Price per item: ", "");
              document.write(a,b,c);
 
-}
+}*/
 
-/*
-function firstItem()  {
-    var a = prompt("Add Inventory Item: ", "");
-    toDocument(a);
-    var a = prompt("Add Quantity on-hand: ", "");
-        toDocument(a);
-     var a = prompt("Add Price per item: ", "");
-             toDocument(a);
-
-} */
 
 function example(){
-    var a = prompt("Say something: ", "");
-    toDocument(a);
+    var a = prompt("Add Inventory Item: ", "");
+    var b= prompt("Add Quantity on-hand: ", "");
+    var c = prompt("Add Price per item: ", "");
+    //toDocument(a);
+    document.getElementById("table").innerHTML += "<tr><td>" + a + "</td><td>" + b + "<td>" + c + "</td></td></tr>";
 }
 
 //used to insert text into html document

@@ -166,6 +166,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed the form action to local project file. and corrected &gt;&lt;/p&gt; at the end of the input statement." />
