@@ -68,3 +68,15 @@ function drawTable(){
     }
     iTable.innerHTML = temp;
 }
+
+function addBetweenNumbers(){
+    var first = parseInt(document.getElementById("firstNumber").value);
+    var second = parseInt(document.getElementById("secondNumber").value);
+    var outPut = 0;
+    if (second > first){
+        for (i = first; i <= second; i++){
+            Number(outPut += i);
+        }
+    }
+    alert("outPut=" + outPut);
+}//end addBetweenNumbers
