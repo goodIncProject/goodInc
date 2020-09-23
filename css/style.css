@@ -93,7 +93,7 @@ main {
     display: block;
     background-image: linear-gradient(to right,rgb(58, 211, 231), rgb(12, 40, 43) 15%, rgb(15, 50, 55) 85%,rgb(58, 211, 231));
     /*padding: 20px;*/
-    border: 1px solid #ff0303;
+    border: 1px solid rgb(58, 211, 231);
 }
 
 section {

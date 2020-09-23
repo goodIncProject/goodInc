@@ -35,17 +35,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be307917-2c8c-4575-b2af-159508d746c8" name="Default Changelist" comment="Hopefully fixed .gitignore file and fixed reoccuring error with goodInc.iml trying to change to IntelliJ project&#10;&#10;For some reason module keeps trying to change to &quot;JAVA_MODULE&quot; which is IntelliJ not Webstorm.">
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inventory.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
+    <list default="true" id="be307917-2c8c-4575-b2af-159508d746c8" name="Default Changelist" comment="HTML and CSS changes:&#10;&#10;HTML: Added - inventory.hml and contact.html&#10;Edited pages to work with CSS style.css&#10;&#10;CSS: Edited - style.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goodIncProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/goodIncProject.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +103,7 @@
       <updated>1599927022929</updated>
       <workItem from="1600536418851" duration="1147000" />
       <workItem from="1600543571629" duration="607000" />
-      <workItem from="1600806407360" duration="24344000" />
+      <workItem from="1600806407360" duration="25843000" />
     </task>
     <task id="LOCAL-00001" summary="Changed the form action to local project file. and corrected &gt;&lt;/p&gt; at the end of the input statement.">
       <created>1600185057043</created>
@@ -224,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600537129615</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="HTML and CSS changes:&#10;&#10;HTML: Added - inventory.hml and contact.html&#10;Edited pages to work with CSS style.css&#10;&#10;CSS: Edited - style.css">
+      <created>1600835574415</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600835574415</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +252,8 @@
     <MESSAGE value="Table input" />
     <MESSAGE value="Renamed example() to addItem() with documentation" />
     <MESSAGE value="Hopefully fixed .gitignore file and fixed reoccuring error with goodInc.iml trying to change to IntelliJ project&#10;&#10;For some reason module keeps trying to change to &quot;JAVA_MODULE&quot; which is IntelliJ not Webstorm." />
-    <option name="LAST_COMMIT_MESSAGE" value="Hopefully fixed .gitignore file and fixed reoccuring error with goodInc.iml trying to change to IntelliJ project&#10;&#10;For some reason module keeps trying to change to &quot;JAVA_MODULE&quot; which is IntelliJ not Webstorm." />
+    <MESSAGE value="HTML and CSS changes:&#10;&#10;HTML: Added - inventory.hml and contact.html&#10;Edited pages to work with CSS style.css&#10;&#10;CSS: Edited - style.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML and CSS changes:&#10;&#10;HTML: Added - inventory.hml and contact.html&#10;Edited pages to work with CSS style.css&#10;&#10;CSS: Edited - style.css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="210" key="#Intentions" timestamp="1600194551490">
@@ -269,9 +270,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="691" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600183687810" />
-    <state x="2007" y="-357" width="1736" height="856" key="DiffContextDialog" timestamp="1600363705638">
-      <screen x="1930" y="-433" width="1600" height="860" />
+    <state x="0" y="4" width="1920" height="1036" key="DiffContextDialog" timestamp="1600835618147">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="0" y="4" width="1920" height="1036" key="DiffContextDialog/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600835618147" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600185172370" />
     <state x="2007" y="-357" key="DiffContextDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@1930.-433.1600.860" timestamp="1600363705638" />
     <state x="730" y="384" key="FileChooserDialogImpl" timestamp="1600810478184">
@@ -360,9 +362,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="451" y="288" key="SettingsEditor/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600812154436" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600537189161">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600835619433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600835619433" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600537189161" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600218156492" />
     <state x="2390" y="-224" key="Vcs.Push.Dialog.v2/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@1930.-433.1600.860" timestamp="1600435249913" />
@@ -370,9 +373,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="325" key="save.file.as.template.dialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600113227174" />
-    <state x="633" y="285" width="672" height="678" key="search.everywhere.popup" timestamp="1600815583423">
+    <state x="633" y="285" width="672" height="678" key="search.everywhere.popup" timestamp="1600835357333">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="633" y="285" width="672" height="678" key="search.everywhere.popup/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600815583423" />
+    <state x="633" y="285" width="672" height="678" key="search.everywhere.popup/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600835357333" />
   </component>
 </project>
