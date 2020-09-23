@@ -1,9 +1,9 @@
 <!doctype html>
 <html class="no-js" lang="">
 <head>
-    <title>Good Inc.</title>
+    <title>Inventory</title>
     <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
-    <meta name="author" content="CSCI Class">
+    <meta name="author" content="Greg Moss, Mickey Pugh, and Chris Robinson">
 </head>
 <link rel="style" href="css/style.css">
 <meta charset="utf-8">
@@ -16,7 +16,7 @@
 <meta property="og:url" content="">
 <meta property="og:image" content="">
 
-<!-- <link rel="manifest" href="site.webmanifest"> -->
+<link rel="manifest" href="site.webmanifest">
 <link rel="apple-touch-icon" href="icon.png">
 <!-- Place favicon.ico in the root directory -->
 
@@ -31,8 +31,7 @@
 
 <body id="topofpage">
 <header>
-
-    <!-- NAVIGATION -->
+    <!-- <img src="img/logo_white.png" alt="" /> -->
     <nav>
         <ul>
             <li><a href="index.html" title="Home Page">Home</a></li>
@@ -43,37 +42,40 @@
 </header>
 
 <main>
+    <div class="content" id="inventory">
+        <h3>Inventory</h3>
+        <p>Inventory Item: <input type="text" id="userInput2" name="firstItem"></p>
+        <p>Inventory Item: <input type="button" value="Add Item" onclick="firstItem();"></p>
+        <div id="example2"></div>
+        <table border="1" id="table">
+            <tr>
+                <th>Inventory Item</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </table>
 
-    <div class="content">
-        <p>
-        <label>Enter Your Name Here: <input type="text" id="userInput" name="username"></label>
-            <input type="button" value="Submit" onclick="helloUser();">
-        </p>
     </div>
-
-    <!-- STRING REVERSAL -->
-    <div class="content">
-        <p>
-            <label>Reverse a String <input type="button" value="Reverse" onclick="reverseText()"/></label>
-        </p>
-    </div>
-
-
     <div class="content topofpage"><a href="#topofpage" title="Top of Page">Top of Page</a></div>
-    <div class="spacer"></div>
 
 </main>
 
 
-  <!-- Add your site or application content here -->
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/goodIncProject.js"></script>
 
-    <footer><br>"We do GOOD business!"
-        <h6 class="designers">Designed by: Greg Moss, Mickey Pugh, and Chris Robinson</h6>
-    </footer>
+
+
+
+
+<!-- Add your site or application content here -->
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+<script src="js/goodIncProject.js"></script>
+<script src="js/contact.js"></script>
+
+<footer><br>"We do GOOD business!"
+    <h6 class="designers">Designed by: Greg Moss, Mickey Pugh, and Chris Robinson</h6>
+</footer>
 </body>
 
 </html>

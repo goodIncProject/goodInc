@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -32,15 +35,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be307917-2c8c-4575-b2af-159508d746c8" name="Default Changelist" comment="Renamed example() to addItem() with documentation">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/goodInc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/goodInc.iml" afterDir="false" />
+    <list default="true" id="be307917-2c8c-4575-b2af-159508d746c8" name="Default Changelist" comment="Hopefully fixed .gitignore file and fixed reoccuring error with goodInc.iml trying to change to IntelliJ project&#10;&#10;For some reason module keeps trying to change to &quot;JAVA_MODULE&quot; which is IntelliJ not Webstorm.">
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inventory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goodIncProject.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/goodIncProject.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,9 +70,35 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\webstorm projects\goodinc\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.contact.html">
+    <configuration name="contact.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/goodinc/contact.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/goodinc/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.contact.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.contact.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +108,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599927022929</updated>
-      <workItem from="1600536418851" duration="548000" />
+      <workItem from="1600536418851" duration="1147000" />
+      <workItem from="1600543571629" duration="607000" />
+      <workItem from="1600806407360" duration="24344000" />
     </task>
     <task id="LOCAL-00001" summary="Changed the form action to local project file. and corrected &gt;&lt;/p&gt; at the end of the input statement.">
       <created>1600185057043</created>
@@ -171,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600531715051</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Hopefully fixed .gitignore file and fixed reoccuring error with goodInc.iml trying to change to IntelliJ project&#10;&#10;For some reason module keeps trying to change to &quot;JAVA_MODULE&quot; which is IntelliJ not Webstorm.">
+      <created>1600537129615</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1600537129615</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,16 +251,18 @@
     <MESSAGE value="Commit to local." />
     <MESSAGE value="Table input" />
     <MESSAGE value="Renamed example() to addItem() with documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed example() to addItem() with documentation" />
+    <MESSAGE value="Hopefully fixed .gitignore file and fixed reoccuring error with goodInc.iml trying to change to IntelliJ project&#10;&#10;For some reason module keeps trying to change to &quot;JAVA_MODULE&quot; which is IntelliJ not Webstorm." />
+    <option name="LAST_COMMIT_MESSAGE" value="Hopefully fixed .gitignore file and fixed reoccuring error with goodInc.iml trying to change to IntelliJ project&#10;&#10;For some reason module keeps trying to change to &quot;JAVA_MODULE&quot; which is IntelliJ not Webstorm." />
   </component>
   <component name="WindowStateProjectService">
     <state x="508" y="210" key="#Intentions" timestamp="1600194551490">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="508" y="210" key="#Intentions/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600194551490" />
-    <state x="2291" y="-263" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600364267809">
-      <screen x="1930" y="-433" width="1600" height="860" />
+    <state x="433" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600816058654">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="433" y="206" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600816058654" />
     <state x="433" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600286036379" />
     <state x="2291" y="-263" key="#com.intellij.execution.impl.EditConfigurationsDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@1930.-433.1600.860" timestamp="1600364267809" />
     <state x="691" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600183687810">
@@ -219,10 +274,78 @@
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600185172370" />
     <state x="2007" y="-357" key="DiffContextDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@1930.-433.1600.860" timestamp="1600363705638" />
+    <state x="730" y="384" key="FileChooserDialogImpl" timestamp="1600810478184">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="730" y="384" key="FileChooserDialogImpl/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600810478184" />
     <state x="838" y="418" key="Github.ShareDialog" timestamp="1600218140883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="838" y="418" key="Github.ShareDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600218140883" />
+    <state width="1340" height="286" key="GridCell.Tab.0.bottom" timestamp="1600834931642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.0.bottom/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931642" />
+    <state width="1340" height="286" key="GridCell.Tab.0.center" timestamp="1600834931642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.0.center/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931642" />
+    <state width="1340" height="286" key="GridCell.Tab.0.left" timestamp="1600834931642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.0.left/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931642" />
+    <state width="1340" height="286" key="GridCell.Tab.0.right" timestamp="1600834931642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.0.right/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931642" />
+    <state width="1340" height="286" key="GridCell.Tab.1.bottom" timestamp="1600834931643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.1.bottom/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931643" />
+    <state width="1340" height="286" key="GridCell.Tab.1.center" timestamp="1600834931642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.1.center/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931642" />
+    <state width="1340" height="286" key="GridCell.Tab.1.left" timestamp="1600834931642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.1.left/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931642" />
+    <state width="1340" height="286" key="GridCell.Tab.1.right" timestamp="1600834931642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.1.right/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931642" />
+    <state width="1340" height="286" key="GridCell.Tab.2.bottom" timestamp="1600834931643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.2.bottom/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931643" />
+    <state width="1340" height="286" key="GridCell.Tab.2.center" timestamp="1600834931643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.2.center/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931643" />
+    <state width="1340" height="286" key="GridCell.Tab.2.left" timestamp="1600834931643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.2.left/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931643" />
+    <state width="1340" height="286" key="GridCell.Tab.2.right" timestamp="1600834931643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.2.right/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931643" />
+    <state width="1340" height="286" key="GridCell.Tab.3.bottom" timestamp="1600834931643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.3.bottom/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931643" />
+    <state width="1340" height="286" key="GridCell.Tab.3.center" timestamp="1600834931643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.3.center/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931643" />
+    <state width="1340" height="286" key="GridCell.Tab.3.left" timestamp="1600834931643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.3.left/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931643" />
+    <state width="1340" height="286" key="GridCell.Tab.3.right" timestamp="1600834931643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="286" key="GridCell.Tab.3.right/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600834931643" />
     <state x="1978" y="-433" key="MergeDialog" timestamp="1600435299508">
       <screen x="1930" y="-433" width="1600" height="860" />
     </state>
@@ -233,15 +356,23 @@
     </state>
     <state x="598" y="281" key="MultipleFileMergeDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600355770517" />
     <state x="2428" y="-201" key="MultipleFileMergeDialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@1930.-433.1600.860" timestamp="1600435299513" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600531730682">
+    <state x="451" y="288" key="SettingsEditor" timestamp="1600812154436">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600531730682" />
+    <state x="451" y="288" key="SettingsEditor/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600812154436" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1600537189161">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600537189161" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600218156492" />
     <state x="2390" y="-224" key="Vcs.Push.Dialog.v2/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@1930.-433.1600.860" timestamp="1600435249913" />
     <state x="740" y="325" key="save.file.as.template.dialog" timestamp="1600113227174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="325" key="save.file.as.template.dialog/1930.-433.1600.860/564.-768.1366.728/0.0.1920.1040/-802.-768.1366.728@0.0.1920.1040" timestamp="1600113227174" />
+    <state x="633" y="285" width="672" height="678" key="search.everywhere.popup" timestamp="1600815583423">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="633" y="285" width="672" height="678" key="search.everywhere.popup/-1920.-3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600815583423" />
   </component>
 </project>
