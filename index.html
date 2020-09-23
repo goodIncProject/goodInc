@@ -45,22 +45,58 @@
 <main>
 
     <div class="content">
-        <p>
-        <label>Enter Your Name Here: <input type="text" id="userInput" name="username"></label>
-            <input type="button" value="Submit" onclick="helloUser();">
-        </p>
+        <div class="content box">
+            <h3>Welcome!</h3>
+            <form>
+                <table class="table aligned">
+                    <tr>
+                        <td>Enter Your Name Here:</td><td><input type="text" id="userInput" name="username"></td>
+                        <td><input type="button" value="Submit" onclick="helloUser();"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </div>
 
     <!-- STRING REVERSAL -->
     <div class="content">
-        <p>
-            <label>Reverse a String <input type="button" value="Reverse" onclick="reverseText()"/></label>
-        </p>
+        <div class="content box">
+            <h3>Reverse String</h3>
+            <form>
+                <table class="table aligned">
+
+                    <tr>
+                        <td>String to Reverse:</td>
+                        <td><input type="text" id="revString"/></td>
+                        <td><input type="submit" value="Revese" onclick="reverseText()"/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </div>
 
+    <div class="content">
+        <div class="content box"><h3>Summation</h3>
+            <form>
+                <table class="table aligned">
 
+                    <tr>
+                        <td>Starting Number:</td>
+                        <td><input type="text" id="numStart"/></td>
+                    </tr>
+                    <tr>
+                        <td>Final Number:</td>
+                        <td><input type="text" id="numFinal"/></td>
+                    </tr>
+                    <tr>
+                    <td></td>
+                    <td><input type="submit" value="Sum" onclick=""/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
     <div class="content topofpage"><a href="#topofpage" title="Top of Page">Top of Page</a></div>
-    <div class="spacer"></div>
 
 </main>
 

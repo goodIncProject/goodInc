@@ -29,7 +29,7 @@
 
 <meta name="theme-color" content="#fafafa">
 
-<body id="topofpage">
+<body id="topofpage" onload="init()">
 <header>
     <!-- <img src="img/logo_white.png" alt="" /> -->
     <nav>
@@ -42,17 +42,34 @@
 </header>
 
 <main>
-    <div class="content" id="inventory">
+    <div class="content">
         <h3>Inventory</h3>
-        <p>Inventory Item: <input type="text" id="userInput2" name="firstItem"></p>
-        <p>Inventory Item: <input type="button" value="Add Item" onclick="firstItem();"></p>
-        <div id="example2"></div>
-        <table border="1" id="table">
-            <tr>
-                <th>Inventory Item</th>
-                <th>Quantity</th>
-                <th>Price</th>
-            </tr>
+        <div class="content box">
+            <h3>Add Inventory Item</h3>
+        <form>
+            <table class="table aligned">
+                <tr>
+                    <td>Item:</td>
+                    <td><input type="text" id="itemName" name="itemName"></td>
+                </tr>
+                <tr>
+                    <td>Quantity:</td>
+                    <td><input type="text" id="itemQuant" name="itemQuant"></td>
+                </tr>
+                <tr>
+                    <td>Cost:</td>
+                    <td><input type="text" id="itemCost" name="itemCost"></td>
+                </tr>
+                    <td></td>
+                    <td><input type="button" value="Add Item" onclick="firstItem();"></td>
+            </table>
+        </form>
+        </div>
+    </div>
+
+    <div class="content">
+        <table class="table inventory" id="invTable" onload="drawTable()">
+
         </table>
 
     </div>

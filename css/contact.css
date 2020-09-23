@@ -1,0 +1,136 @@
+.contact-info {
+    font-size: 1rem;
+    text-align: left;
+    vertical-align: text-top;
+    display: inline-grid;
+    width: 20%;
+    height: 300px;
+    margin: 0 10px 0 10px;
+    padding: 10px 10px 10px 25px;
+    background-color: rgb(3, 136, 146);
+    color: white;
+    border: 1px solid #3ad3e7;
+    border-radius: 6px;
+}
+
+.contact-info h4 {
+    margin: 0;
+    padding: 5px 40px 0 0;
+}
+
+.email {
+    font-size: 1rem;
+    line-height: 1rem;
+    width: auto;
+}
+
+#emailForm td{
+    vertical-align: top;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .contact-info {
+        display: block;
+        width: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contact-info {
+        display: block;
+        width: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .contact-info{
+        display: inline-grid;
+        font-size: 0.7rem;
+        width: auto;
+        margin: 0 5px 0 5px;
+    }
+    .map {
+        width: 100px;
+    }
+    .map iframe {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+    .h-spacer {
+        width: 0;
+    }
+    .email {
+        width: auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 1010px and up) */
+@media only screen and (min-width: 1010px) {
+    .contact-info {
+        display: inline-grid;
+        font-size: 0.9rem;
+        width: 15%;
+        margin: 0 10px 0 10px;
+    }
+    .map {
+        width: 165px;
+    }
+    .map iframe {
+        width: 150px;
+        height: 150px;
+        margin: auto;
+    }
+    .h-spacer {
+        width: 5%;
+    }
+    .email {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .contact-info {
+        font-size: 1rem;
+        width: 15%;
+    }
+    .map {
+        width: 300px;
+    }
+    .map iframe {
+        width: 280px;
+        height: 280px;
+        margin: auto;
+    }
+    .h-spacer {
+        width: 5%;
+    }
+    .email {
+        width: auto;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1650px) {
+    .contact-info {
+        font-size: 1rem;
+        width: 20%;
+    }
+    .map {
+        width: 420px;
+    }
+    .map iframe {
+        width: 400px;
+        height: 300px;
+        margin: auto;
+    }
+    .h-spacer {
+        width: 7%;
+    }
+    .email {
+        width: auto;
+    }
+}

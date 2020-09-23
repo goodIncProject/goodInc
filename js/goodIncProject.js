@@ -1,5 +1,8 @@
-function goodIncProject()   {
+const invList = [];
 
+function init()   {
+    invList.push("<tr><th>Inventory Item</th><th>Quantity</th><th>Price</th></tr>");
+    drawTable();
 }
 function helloUser() {
     var a = document.getElementById("userInput").value;
@@ -8,7 +11,7 @@ function helloUser() {
 }
 
 function reverseText(){
-    var userInput = prompt("A name / phrase / sentence", "");
+    var userInput = document.getElementById("revString").value;
     alertWindow(reverse(userInput));
 }
 
@@ -42,9 +45,9 @@ function addItem(){
 }
 
 //used to insert text into html document
-function toDocument(s){
+function toDocument(str, id){
     //example
-    document.getElementById("example").innerHTML = s;
+    document.getElementById(id).innerHTML = str;
 }
 
 //redundant but allows more encapsulation of the functions.
@@ -52,4 +55,12 @@ function alertWindow(s){
     alert(s);
 }
 
-
+//draws the inventory table
+function drawTable(){
+    var iTable = document.getElementById("invTable");
+    var temp = " ";
+    for (i=0; i < invList.length; i++){
+        temp += invList[i];
+    }
+    iTable.innerHTML = temp;
+}

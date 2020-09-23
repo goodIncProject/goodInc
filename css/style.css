@@ -8,7 +8,7 @@ body {
 
 header {
     background: white;
-    background-image: url("../img/logo_white.png");
+    background-image: url("../img/logo_good.png");
     background-position: center;
     background-repeat: no-repeat;
     height: 271px;
@@ -37,7 +37,7 @@ nav ul li {
 
 nav a {
     text-decoration: none;
-    color: rgb(58, 211, 231);
+    color: rgb(3, 124, 145);
     padding: 3px 3px 3px;
     border: 1px solid rgba(58, 211, 231, 0.5);
     box-shadow: 0 2px 2px rgba(0, 0, 0, .3);
@@ -57,7 +57,7 @@ nav a:active{
 
 a {
     text-decoration: none;
-    color: rgb(58, 211, 231);
+    color: rgb(3, 124, 145);
     padding: 3px 3px 3px;
     box-shadow: none;
     border: none;
@@ -84,14 +84,12 @@ h2,
 h3,
 h4{
     text-align: center;
-    color: rgb(58, 211, 231);
+    color: rgb(3, 124, 145);
 }
-
-
 
 main {
     display: block;
-    background-image: linear-gradient(to right,rgb(58, 211, 231), rgb(12, 40, 43) 15%, rgb(15, 50, 55) 85%,rgb(58, 211, 231));
+    background-image: linear-gradient(to right,rgb(3, 136, 146), rgb(12, 40, 43) 15%, rgb(15, 50, 55) 85%,rgb(3, 136, 146));
     /*padding: 20px;*/
     border: 1px solid rgb(58, 211, 231);
 }
@@ -112,49 +110,57 @@ section {
     padding: 5px 0 25px 25px; /* top right bottom left */
 }
 
-.contact-info {
-    font-size: 1rem;
-    text-align: left;
-    vertical-align: text-top;
-    display: inline-grid;
-    width: 20%;
-    height: 300px;
-    margin: 0 10px 0 10px;
-    padding: 10px 10px 10px 25px;
-    background-color: white;
-    color: black;
+.content h1,
+.content h2,
+.content h4 {
+    color: white;
+}
+
+.box{
+    margin: 10px auto 0 auto;
+    padding: 0px 0 10px 0; /* top right bottom left */
     border: 1px solid #3ad3e7;
     border-radius: 6px;
+    box-shadow: 0px 1px 3px #393939;
+    background-color: rgb(3, 136, 146);
+    color: white;
 }
 
-.contact-info h4 {
-    margin: 0;
-    padding: 5px 40px 0 0;
+.box h3 {
+    color: white;
+}
+.table{
+    margin: auto;
+    width: auto;
+
 }
 
-.map {
-    width: 410px;
-    padding: 10px 10px 10px 25px;
+.aligned {
+    width: auto;
+    margin: auto;
 }
 
-.links {
-    line-height: 2.5rem;
+.inventory{
+    width: 75%;
+    border-collapse: collapse;
+    border-radius: 3px;
+}
+
+.inventory th,
+.inventory td {
+    text-align: center;
+    width: auto;
+    border: 1px solid black;
 }
 
 .h-spacer {
     font-size: 1rem;
     vertical-align: text-top;
     display: inline-grid;
-    width: 7%;
-    margin: 0 10px 0 10px;
-    padding: 10px 0 10px 25px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
     background-color: white;
-    color: black;
-    border-radius: 6px;
 }
-
-
-
 
 .topofpage {
     text-align: center;
@@ -170,10 +176,7 @@ section {
     padding: 5px 0 300px 25px; /* top right bottom left */
 }
 
-.content table{
-    width: 90%;
-    margin: auto;
-}
+
 
 
 footer {
@@ -187,4 +190,62 @@ footer .designers {
     margin: auto;
     color: black;
     padding: 25px 0 25px 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+        padding: 0;
+    }
+    .box {
+        width: 99%;
+        margin: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body {
+        width: 95%;
+    }
+    .content {
+        width: 95%;
+        padding: 5px 0 25px 25px;
+    }
+    .box {
+        width: 90%;
+        margin: 10px auto 0 auto;
+     }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body {
+        width: 85%;
+    }
+    .content {
+        width: 90%;
+        padding: 5px 0 25px 25px;
+    }
+    .box {
+        width: 75%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .box {
+        width: 65%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .box {
+        width: 60%;
+    }
 }
