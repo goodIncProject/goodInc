@@ -37,11 +37,15 @@ function inventoryItems(inventory_item, quantity, price){
 
 //Adds a row to table class "table"
 function addItem(){
-    var a = prompt("Add Inventory Item: ", "");
-    var b= prompt("Add Quantity on-hand: ", "");
-    var c = prompt("Add Price per item: ", "");
+    var a = document.getElementById("itemName");
+    var b= document.getElementById("itemQuant");
+    var c = document.getElementById("itemCost");
 
-    document.getElementById("table").innerHTML += "<tr><td>" + a + "</td><td>" + b + "<td>" + c + "</td></td></tr>";
+    invList.push("<tr><td>" + a.value + "</td><td>" + b.value + "<td>" + c.value + "</td></td></tr>");
+    drawTable();
+    a.value = "";
+    b.value = "";
+    c.value = "";
 }
 
 //used to insert text into html document
